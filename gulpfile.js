@@ -1,6 +1,6 @@
 var gulp = require("gulp"),
-    browserSync = require('browser-sync'),
-    modernizr = require('gulp-modernizr');
+    browserSync = require('browser-sync');
+    // modernizer = require('gulp-modernizer');
 
 // Сервер
 gulp.task('server', function () {  
@@ -22,23 +22,25 @@ gulp.task('watch', function () {
 });
 
 // Modernizr
-gulp.task('modernizr', function () {
-  gulp.src('app/js/*.js').pipe(modernizr(
-      {
-        // Подключаем необходимые опции
-        "options" : [
-          "setClasses", 
-          "html5shiv"
-        ],
+// gulp.task('modernizer', function () {
+//   gulp.src('app/js/*.js').pipe(modernizer(
+//       {
+//         // Подключаем необходимые опции
+//         "options" : [
+//           "setClasses", 
+//           "html5shiv"
+//         ],
 
-        // Подключаем необходимый набор тестов
-        "tests" : ['placeholder', 'cssanimation'],
+//         // Подключаем необходимый набор тестов
+//         "tests" : ['placeholder', 'cssanimation'],
 
-        // Собираем минифицированную версию
-        "uglify" : true,
-      }
-    )).pipe(gulp.dest("app/js/vendor"))
-});
+//         // Собираем минифицированную версию
+//         "uglify" : true,
+//       }
+//     )).pipe(gulp.dest("app/js/vendor"))
+// });
 
-// Задача по-умолчанию
-gulp.task('default', ['modernizr', 'server', 'watch']);
+// // Задача по-умолчанию
+// gulp.task('default', ['modernizer', 'server', 'watch']);
+
+gulp.task('default', ['server', 'watch']);

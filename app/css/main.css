@@ -1,11 +1,67 @@
-h1 {
-	color: green;
+html {
+	height: 100%;
 }
 
-.lorem {
+body {
+	height: 100%;
+	background: url(../img/bg.jpg);
+	font: normal 1em "open_sans_regular";
+	color: #726F70;
+}
+
+.page-footer {
+}
+
+
+.container-footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+
+
+	text-align: center;
+	line-height: 61px;
+	position: relative;
+	/*border: 1px black solid;*/
+}
+
+.login {
+	line-height: 1.25em;
 	background-color: red;
+	position: absolute;
+	/*top: 42%;*/
+	left: -120px;
+	top: -3px;
+	padding-left: 27px;
+	background: url(../img/locked.png) no-repeat;
 }
 
-.lorem2 {
-	background-color: yellow;
+.login:hover {
+	background: url(../img/unlocked.png) no-repeat;
+}
+
+.login-inner {
+	text-decoration: none;
+
+	font-size: 14px;
+	font-family: "open_sans_bold";
+	color: rgb(50, 50, 50);
+	line-height: 1.5;
+}
+
+.copyright {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 1.25em;
+	/*background-color: red;*/
+	padding: 0;
+	position: relative;
+
+	font-size: 12px;
+	font-family: "open_sans_light";
+	color: rgb(114, 112, 112);
+	line-height: 1.2;
 }

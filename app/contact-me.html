@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Главная страница | Выпускной проект-1</title>
+		<!-- SEO -->
+		<meta name="description" content="portfolio">
+		<meta name="keywords" content="web developer, portfolio">
+		<meta name="author" content="Dm.Schukin dschukin@mail.ru">
+		<!-- favicon.ico -->
+
+		<!-- Bower CSS -->
+		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+
+		<!-- My CSS -->
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/contact-me.css">
+		<!--[if lt IE9]>
+			<link rel="stylesheet" href="css/main-ie8.css">
+		<![endif] -->
+
+		<!-- Modernizer -->
+		<script type="text/javascript" src="bower/modernizer/modernizr.js"></script>
+	</head>
+
+	<body>
+	
+		<div class="wrapper">
+			<div class="main-content">
+
+				<header class="page-header">
+					<div class="container-big">
+						<a href="#" class="header-logo-link">
+							<img src="img/logo.png" alt="LoftSchool logo" class="logo-img">
+							<span class="header-logo-text">Сайт портфолио</span>
+						</a>
+
+						<ul class="social">
+							<li class="social-item">
+								<a href="https://www.facebook.com/" target="_blank" class="social-link fb">facebook.com</a>
+							</li>
+							<li class="social-item">
+								<a href="http://vk.com/" target="_blank" class="social-link vk">vk.com</a>
+							</li>
+							<li class="social-item">
+								<a href="https://twitter.com/" target="_blank" class="social-link tw">twitter.com</a>
+							</li>
+							<li class="social-item">
+								<a href="https://github.com/" target="_blank" class="social-link gh">github.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav-bar"></div>
+				</header>
+
+				<!-- General Block -->
+				<div class="container">
+
+					<!-- Navigation & Contacts -->
+					<aside class="sidebar">
+						<nav class="navigation">
+							<ul class="nav-list">
+								<li class="nav-item"><a href="index.html" class="nav-link">Обо мне</a></li>
+								<li class="nav-item"><a href="my-portfolio.html" class="nav-link">Мои Работы</a></li>
+								<li class="nav-item active"><a href="contact-me.html" class="nav-link">Обратная связь</a></li>
+							</ul>
+						</nav>
+						<address class="my-contacts">
+							<ul class="contacts">
+								<li class="contact-item title"><span>Контакты</span></li>
+								<li class="contact-item mail"><a href="mailto:dschukin@mail.ru" class="contact-link mail">dschukin@mail.ru</a></li>
+								<li class="contact-item phone"><a href="tel:+79651038885" class="contact-link phone">+7 965 103 8885</a></li>
+								<li class="contact-item skype"><a href="skype:dsch65" class="contact-link skype">dsch65</a></li>
+							</ul>
+						</address>
+					</aside>	
+
+					<!-- Main Info Blocks -->
+					<section class="main-blocks">
+						<!-- Contact Form -->
+						<article class="infobox">
+							<h2 class="infobox-header">У вас интересный проект? Напишите мне</h2>
+							<div class="infobox contact-form">
+								<form action="sendform.php" class="my-form">
+									<div class="name-email">
+										<div class="contact-name">
+											<label for="contactName" class="my-label">
+											Имя</label>
+											<input type="text" class="my-input" name="contactName" placeholder="Как к Вам обращаться">
+										</div>
+										<div class="contact-email">
+											<label for="contactEmail" class="my-label">Email</label>
+											<input type="text" class="my-input" name="contactEmail" placeholder="Куда мне писать">
+										</div>
+									</div>
+									<div class="message">
+										<label for="contactName" class="my-label-message">
+										Сообщение</label>
+										<textarea name="inputMessage" id="inputMessage" cols="30" rows="10" class="my-input-message" placeholder="Кратко в чем суть"></textarea>
+									</div>
+									<div class="capcha">
+										<p class="capcha-label">Введите код, указанный на картинке</p>
+										<div class="capcha-img">
+											
+										</div>
+										<input type="text" name="capchaInput" class="capcha-input" placeholder="Введите код">
+									</div>
+									<div class="buttons">
+										<button class="button-send">Отправить</button>
+										<button class="button-clear">Очистить</button>
+									</div>
+								</form>
+							</div>
+						</article>
+					</section>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<!-- Footer Block -->
+		<footer class="page-footer">
+			<div class="container-footer">
+				
+				<div class="copyright">© Это мой сайт, пожалуйста, не копируйте и не воруйте его!
+				<div class="login">
+					<a href="login.html" class="login-inner">ВХОД</a>
+				</div>
+				</div>
+			</div>
+		</footer>
+
+		
+
+		<script src="bower/jquery/jquery.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+</html>

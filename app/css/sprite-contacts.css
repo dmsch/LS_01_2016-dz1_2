@@ -1,0 +1,23 @@
+.sprite-contacts {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-contacts-email-main {
+    width: 16px;
+    height: 12px;
+    background-position: -5px -5px;
+}
+
+.sprite-contacts-skype-main {
+    width: 19px;
+    height: 19px;
+    background-position: -31px -5px;
+}
+
+.sprite-contacts-telephone-main {
+    width: 16px;
+    height: 21px;
+    background-position: -60px -5px;
+}

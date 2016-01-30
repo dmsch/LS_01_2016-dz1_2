@@ -1,0 +1,295 @@
+/* General Info Sections */
+.infobox {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfa+0,f0eeed+100 */
+background: #fbfbfa; /* Old browsers */
+background: -moz-linear-gradient(top,  #fbfbfa 0%, #f0eeed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fbfbfa 0%,#f0eeed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fbfbfa 0%,#f0eeed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
+
+
+	margin: 0 0 37px 0;
+	/*margin-bottom: 37px;*/
+	padding: 0;
+	overflow: hidden;
+	border-radius: 4px;
+
+
+}
+
+.infobox-header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a8a7a7+0,7b7979+100 */
+	background: #a8a7a7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a8a7a7 0%, #7b7979 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #a8a7a7 0%,#7b7979 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #a8a7a7 0%,#7b7979 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
+
+ 	margin: 0;
+ 	padding: 0 0 0 44px;
+
+	font-size: 24px;
+	font-family: "open_sans_semibold";
+	color: rgb(238, 237, 236);
+	line-height: 2.33;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.75);
+}
+
+
+
+/* Personal Picture */
+.img-wrapper {
+	width: 200px;
+	float: left;
+	margin-bottom: 0px;
+}
+.pers-img {
+	width: 152px;
+	height: 152px;
+	border: 1px #d5d3d2;
+	border-style: solid;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	margin: 40px 0 0 42px;
+}
+
+.pers-img-inner {
+	width: 150px;
+	height: 150px;
+	border: 8px #f5f4f3;
+	border-style: solid;
+	overflow: hidden;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+/* Personal Info */
+
+.infobox .pers-info {
+	margin-bottom: 39px;
+}
+
+.general-info-wrapper {
+	width: 378px;
+	float: right;
+	margin: 40px 43px 0 0;
+}
+
+ul.general-info {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.general-info-item-topic {
+	float: left;
+
+	font-size: 14px;
+	font-family: "open_sans_semibold";
+	color: rgb(114, 112, 112);
+	line-height: 1.71;
+	text-align: left;
+	font-style: normal;
+}
+
+
+.general-info-item-content {
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: "open_sans_regular";
+	color: rgb(114, 112, 112);
+	line-height: 1.71;
+	text-align: left;
+	max-width: 210px;
+}
+
+li.general-info-item:last-child .general-info-item-topic {
+	line-height: 2.57;
+}
+
+li.general-info-item:last-child .general-info-item-content {
+	line-height: 2.57;
+}
+
+.key-skills-list {
+	width: 234px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style: none;
+}
+
+li.key-skills {
+	display: inline-block;
+    font-family: "open_sans_semibold";
+    font-style: normal;
+    font-size: 9px;
+    margin-bottom: 0px;
+    color: rgb(30, 116, 101);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+    background: url(../img/label-center.png);
+    height: 21px;
+    margin-right: 10px;
+    padding: 0;
+    min-width: 30px;
+    max-width: 230px;
+}
+
+li.key-skills:before {
+	position: relative;
+	content: '';
+	width: 9px;
+    height: 20px;
+	background-image: url(../img/sprite-label.png);
+	background-position: -41px -5px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	right: 9px;
+	top: -2.5px;
+}
+
+li.key-skills:after {
+	position: relative;
+	content: '';
+	width: 9px;
+    height: 20px;
+	background-image: url(../img/sprite-label.png);
+	background-position: -61px -5px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	left: 5px;
+	top: -2.5px;
+}
+
+/* Employment Info ================================================================= */
+.infobox .empl-info {
+	width: 565px;
+	margin: 0 auto;
+}
+
+ul.empl-info {
+	margin: 0;
+	padding: 0;
+}
+
+li.empl-info-item {
+	position: relative;
+}
+
+li.empl-info-item:not(:last-child):after {
+	content: '';
+	width: 100%;
+	display: block;
+	position: relative;
+	border-bottom: 2px #dbdbda solid; 
+	margin-bottom: 5px;
+}
+
+.empl-info-img-wrapper {
+	display: inline-block;
+	border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 2px 2px 0.5px 0.5px rgba(209, 209, 209, 0.75);
+    width: 53px;
+    height: 54px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0 auto 0;
+}
+
+.empl-info-item-wrapper {
+	width: 470px;
+	float: right;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+.sprite-misc:after {
+    background-image: url(../img/sprite-misc.png);
+    background-repeat: no-repeat;
+}
+
+.empl-info-item-topic {
+	font-size: 14px;
+	font-family: "open_sans_semibold";
+	color: rgb(114, 112, 112);
+	line-height: 1.65;
+}
+
+
+.empl-info-item-content {
+	font-size: 14px;
+	font-family: "open_sans_regular";
+	color: rgb(114, 112, 112);
+	line-height: 1.65;
+}
+
+.portfolio:after {
+	width: 21px;
+    height: 19px;
+    background-position: -5px -5px;
+    content: '';
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.empl-info-item-content p {
+	padding: 0;
+	margin: 0;
+}
+
+/* End of Employment Info ================================================================= */
+
+/* Education Info ================================================================= */
+
+.school:after {
+	width: 21px;
+    height: 21px;
+    background-position: -249px -5px;
+    content: '';
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.graduate:after {
+	width: 27px;
+    height: 18px;
+    background-position: -87px -5px;
+    content: '';
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.diploma:after {
+	width: 15px;
+    height: 20px;
+    background-position: -62px -5px;
+    content: '';
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+
+
+/* End of Education Info ================================================================= */

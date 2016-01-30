@@ -1,0 +1,211 @@
+/* General Info Sections */
+.infobox {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfa+0,f0eeed+100 */
+background: #fbfbfa; /* Old browsers */
+background: -moz-linear-gradient(top,  #fbfbfa 0%, #f0eeed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fbfbfa 0%,#f0eeed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fbfbfa 0%,#f0eeed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
+
+
+	margin: 0 0 37px 0;
+	/*margin-bottom: 37px;*/
+	padding: 0;
+	overflow: hidden;
+	border-radius: 4px;
+
+
+}
+
+.infobox-header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a8a7a7+0,7b7979+100 */
+	background: #a8a7a7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a8a7a7 0%, #7b7979 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #a8a7a7 0%,#7b7979 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #a8a7a7 0%,#7b7979 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
+
+ 	margin: 0 0 39px 0;
+ 	padding: 0 0 0 44px;
+
+	font-size: 24px;
+	font-family: "open_sans_semibold";
+	color: rgb(238, 237, 236);
+	line-height: 2.33;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.75);
+}
+
+
+.infobox .work-info {
+	width: 565px;
+	min-height: 838px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.works-info {
+	margin: 0 0 ;
+	padding: 0;
+}
+
+.work-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 22px 30px 0;
+	background-color: #ffffff;
+	width: 160px;
+	border: 2px #c5c5c5 solid;
+	border-radius: 6px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.work-img {
+	background: url(../img/Me.jpg) no-repeat, 
+    linear-gradient(to bottom, #faf9f8, #ebe9e8);
+    background-size: 160px auto;
+    width: 160px;
+    height: 120px; 
+}
+
+.nf {
+	background: url(../img/NiceFlowers.png) no-repeat, 
+    linear-gradient(to bottom, #faf9f8, #ebe9e8);
+    background-size: 160px auto;
+    width: 160px;
+    height: 120px; 
+}
+
+.bv {
+	background: url(../img/BV.png) no-repeat, 
+    linear-gradient(to bottom, #faf9f8, #ebe9e8);
+    background-size: 160px auto;
+    width: 160px;
+    height: 120px; 
+}
+
+.istron {
+	background: url(../img/Istron.png) no-repeat, 
+    linear-gradient(to bottom, #faf9f8, #ebe9e8);
+    background-size: 160px auto;
+    width: 160px;
+    height: 120px; 
+}
+
+.work-img:hover {
+	opacity: 0.5;
+	/*background-: url(../img/Me.jpg)
+    background-size: 160px auto;
+    width: 160px;
+    height: 120px; */
+}
+
+.work-img a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.work-link {
+	height: 33px;
+	background-color: #f2f2f2;
+	display: block;
+	width: 160px;
+	padding-top: 7px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "open_sans_bold";
+	color: rgb(114, 112, 112);
+	line-height: 1.692;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+	-moz-transform: matrix( 1.02802275960171,0,0,1.02714914341595,0,0);
+	-webkit-transform: matrix( 1.02802275960171,0,0,1.02714914341595,0,0);
+	-ms-transform: matrix( 1.02802275960171,0,0,1.02714914341595,0,0);
+}
+
+.work-title {
+	text-align: center;
+	font-size: 12px;
+	font-family: "open_sans_light";
+	color: rgb(114, 112, 112);
+	line-height: 1.333;
+}
+
+.work-item-add-new-work {
+	width: 160px;
+	height: 134px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefdfd+0,e9e7e6+100 */
+	background: #fefdfd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fefdfd 0%, #e9e7e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fefdfd 0%,#e9e7e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fefdfd 0%,#e9e7e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefdfd', endColorstr='#e9e7e6',GradientType=0 ); /* IE6-9 */
+	list-style: none;
+	display: inline-block;
+	margin: 0 22px 30px 0;
+	width: 160px;
+	border: 2px #c5c5c5 solid;
+	border-radius: 6px;
+	overflow: hidden;
+	/*vertical-align: top;*/
+}
+
+.sprite-misc:after {
+    background-image: url(../img/sprite-misc.png);
+    background-repeat: no-repeat;
+}
+
+.add-new-work-wrapper {
+	border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 2px 2px 0.5px 0.5px rgba(209, 209, 209, 0.75);
+    width: 53px;
+    height: 54px;
+    margin: 27px auto 14px;
+}
+
+.add-work:after {
+	position: relative;
+	top: 17px;
+	width: 20px;
+    height: 20px;
+    background-position: -219px -5px;
+    content: '';
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.work-title-add-new-work {
+	font-size: 14px;
+	font-family: "open_sans_bold";
+	color: rgb(114, 112, 112);
+	line-height: 1.571;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.add-new-project-link {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+.work-item-add-new-work:hover {
+	border-radius: 50%;
+	background-color: rgb(191, 191, 191);
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0.5px 0.866px 0px 0px rgba(199, 199, 199, 0.75);
+	border-radius: 5px;
+	background-image: -moz-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+	box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+}
+
+

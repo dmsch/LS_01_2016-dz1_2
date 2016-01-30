@@ -17,8 +17,8 @@
 		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 
 		<!-- My CSS -->
-		<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/about-me.css">
 		<!--[if lt IE9]>
 			<link rel="stylesheet" href="css/main-ie8.css">
@@ -32,6 +32,7 @@
 	
 		<div class="wrapper">
 			<div class="main-content">
+
 				<header class="page-header">
 					<div class="container-big">
 						<a href="#" class="header-logo-link">
@@ -57,7 +58,10 @@
 					<div class="nav-bar"></div>
 				</header>
 
+				<!-- General Block -->
 				<div class="container">
+
+					<!-- Navigation & Contacts -->
 					<aside class="sidebar">
 						<nav class="navigation">
 							<ul class="nav-list">
@@ -69,23 +73,132 @@
 						<address class="my-contacts">
 							<ul class="contacts">
 								<li class="contact-item title"><span>Контакты</span></li>
-								<li class="contact-item mail"><a href="mailto:dschukin@mail.ru" class="mail">dschukin@mail.ru</a></li>
-								<li class="contact-item phone"><a href="tel:+79651038885">+7 965 103 8885</a></li>
-								<li class="contact-item skype"><a href="skype:dsch65">dsch65</a></li>
+								<li class="contact-item mail"><a href="mailto:dschukin@mail.ru" class="contact-link mail">dschukin@mail.ru</a></li>
+								<li class="contact-item phone"><a href="tel:+79651038885" class="contact-link phone">+7 965 103 8885</a></li>
+								<li class="contact-item skype"><a href="skype:dsch65" class="contact-link skype">dsch65</a></li>
 							</ul>
 						</address>
-						
 					</aside>	
+
+					<!-- Main Info Blocks -->
+					<section class="main-blocks">
+					<!-- General Info -->
+						<article class="infobox general">
+							<h2 class="infobox-header">Основная информация</h2>
+							<div class="infobox pers-info">
+								<div class="img-wrapper">
+									<div class="pers-img">
+										<div class="pers-img-inner">
+											<img src="img/Me.jpg" height="200" width="160" alt="Моя фотография">
+										</div>
+									</div>
+								</div>
+								<div class="general-info-wrapper">
+									<ul class="general-info">
+										<li class="general-info-item clearfix">
+											<div class="general-info-item-topic">Меня зовут:</div>
+											<div class="general-info-item-content">Щукин Дмитрий Иванович</div>
+										</li>
+										<li class="general-info-item clearfix">
+											<div class="general-info-item-topic">Мой возраст:</div>
+											<div class="general-info-item-content">50 лет</div>
+										</li>
+										<li class="general-info-item clearfix">
+											<div class="general-info-item-topic">Мой город:</div>
+											<div class="general-info-item-content">Королёв (Моск. обл.), Россия</div>
+										</li>
+										<li class="general-info-item clearfix">
+											<div class="general-info-item-topic">Моя специализация:</div>
+											<div class="general-info-item-content">Full stack разработчик</div>
+										</li>
+										<li class="general-info-item clearfix">
+											<div class="general-info-item-topic">Ключевые навыки:</div>
+											<div class="general-info-item-content">
+												<ul class="key-skills-list">
+													<li class="key-skills">HTML</li>
+													<li class="key-skills">CSS</li>
+													<li class="key-skills">JavaScript</li>
+													<li class="key-skills">jQuery</li>
+													<li class="key-skills">PHP</li>
+													<li class="key-skills">CMS Drupal</li>
+													<li class="key-skills">MySQL</li>
+													<li class="key-skills">PostgreSQL</li>
+													<li class="key-skills">Git</li>
+													<li class="key-skills">Bower</li>
+													<li class="key-skills">Npm</li>
+													<li class="key-skills">Gulp</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<!-- Employment Info -->
+						<article class="infobox empl">
+							<h2 class="infobox-header">Опыт работы</h2>
+							<div class="infobox empl-info">
+								<ul class="empl-info">
+									<li class="empl-info-item clearfix">
+										<div class="empl-info-img-wrapper sprite-misc portfolio">
+										</div>
+										<div class="empl-info-item-wrapper">
+											<div class="empl-info-item-topic">Software Architect, Senior Web Developer (front-end & back-end)</div>
+											<div class="empl-info-item-content"><p>VPO, MOSCOW, RUSSIA</p><p>сентябрь 2013 – настоящее время (2 года 5 месяцев)</p></div>
+										</div>
+									</li>
+									<li class="empl-info-item clearfix">
+										<div class="empl-info-img-wrapper sprite-misc portfolio">
+										</div>
+										<div class="empl-info-item-wrapper">
+											<div class="empl-info-item-topic">Senior specialist</div>
+											<div class="empl-info-item-content"><p>Rosinterbank</p><p>октябрь 2011 – сентябрь 2013 (2 года)</p></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</article>
+						<!-- Education Info -->
+						<article class="infobox empl">
+							<h2 class="infobox-header">Обоазование</h2>
+							<div class="infobox empl-info">
+								<ul class="empl-info">
+									<li class="empl-info-item clearfix">
+										<div class="empl-info-img-wrapper sprite-misc diploma">
+										</div>
+										<div class="empl-info-item-wrapper">
+											<div class="empl-info-item-topic">LoftSchool. Курс "Комплексное обучение веб разработке"</div>
+											<div class="empl-info-item-content">Январь 2016 - по н.в.</div>
+										</div>
+									</li>
+									<li class="empl-info-item clearfix">
+										<div class="empl-info-img-wrapper sprite-misc graduate">
+										</div>
+										<div class="empl-info-item-wrapper">
+											<div class="empl-info-item-topic">Высшее образование. МЛТИ, ФЭСТ (АСУ)</div>
+											<div class="empl-info-item-content">Сентябрь 1982 - июнь 1987</div>
+										</div>
+									</li>
+									<li class="empl-info-item clearfix">
+										<div class="empl-info-img-wrapper sprite-misc school">
+										</div>
+										<div class="empl-info-item-wrapper">
+											<div class="empl-info-item-topic">Среднее образование. Калининградская ср. школа №2</div>
+											<div class="empl-info-item-content">1972 - 1982</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</article>
+					</section>
 				</div>
 
-				
-				
 			</div>
 		</div>
 
 
 
-
+		<!-- Footer Block -->
 		<footer class="page-footer">
 			<div class="container-footer">
 				

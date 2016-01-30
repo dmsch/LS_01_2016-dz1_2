@@ -1,0 +1,65 @@
+.sprite-misc {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-misc-case-inner {
+    width: 21px;
+    height: 19px;
+    background-position: -5px -5px;
+}
+
+.sprite-misc-cursor {
+    width: 16px;
+    height: 21px;
+    background-position: -36px -5px;
+}
+
+.sprite-misc-diploma-inner {
+    width: 15px;
+    height: 20px;
+    background-position: -62px -5px;
+}
+
+.sprite-misc-graduate-inner {
+    width: 27px;
+    height: 18px;
+    background-position: -87px -5px;
+}
+
+.sprite-misc-iCloud-down {
+    width: 26px;
+    height: 18px;
+    background-position: -124px -5px;
+}
+
+.sprite-misc-key {
+    width: 21px;
+    height: 19px;
+    background-position: -160px -5px;
+}
+
+.sprite-misc-locked {
+    width: 18px;
+    height: 21px;
+    background-position: -191px -5px;
+}
+
+.sprite-misc-pic-inner {
+    width: 20px;
+    height: 20px;
+    background-position: -219px -5px;
+}
+
+.sprite-misc-school-inner {
+    width: 21px;
+    height: 21px;
+    background-position: -249px -5px;
+}
+
+.sprite-misc-unlocked {
+    width: 23px;
+    height: 21px;
+    background-position: -280px -5px;
+}

@@ -26,12 +26,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
 
  	margin: 0 0 39px 0;
- 	padding: 0 0 0 44px;
+ 	padding: 14px 10px 14px 44px;
+ 	min-height: 55px;
 
 	font-size: 24px;
 	font-family: "open_sans_semibold";
 	color: rgb(238, 237, 236);
-	line-height: 2.33;
+	line-height: 1.2;
 	text-align: left;
 	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.75);
 }
@@ -39,7 +40,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 
 .infobox .work-info {
 	width: 565px;
-	min-height: 838px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -52,7 +52,7 @@ ul.works-info {
 .work-item {
 	list-style: none;
 	display: inline-block;
-	margin: 0 22px 30px 0;
+	margin: 0 12px 30px 12px;
 	background-color: #ffffff;
 	width: 160px;
 	border: 2px #c5c5c5 solid;
@@ -61,44 +61,72 @@ ul.works-info {
 	vertical-align: top;
 }
 
-.work-img {
-	background: url(../img/Me.jpg) no-repeat, 
-    linear-gradient(to bottom, #faf9f8, #ebe9e8);
-    background-size: 160px auto;
-    width: 160px;
-    height: 120px; 
+.mask {
+	position: relative;
+	margin-top: -120px;
+	height: 100%;
+	width: 100%;
+	/*background-color: rgba(0,69,135,0.8);*/
+	background-color: rgba(0,0,0,0.75);
+	opacity: 0;
+}
+
+.mask-text-1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*width: 160px;
+	height: 50px;
+	padding: 3px;*/
+	text-align: center;
+	color: white;
+	/*border: 1px white solid;*/
+	/*border-radius: 7px;*/
+}
+
+.mask-link {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 160px;
+	height: 120px;
+	padding: 30% 5px 5px 5px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	/*width: 100%;
+	height: 100%;*/
+	word-break: break-all;
+}
+
+.mask:hover {
+	opacity: 1;
 }
 
 .nf {
-	background: url(../img/NiceFlowers.png) no-repeat, 
-    linear-gradient(to bottom, #faf9f8, #ebe9e8);
-    background-size: 160px auto;
     width: 160px;
     height: 120px; 
+	position: relative;
 }
 
 .bv {
-	background: url(../img/BV.png) no-repeat, 
-    linear-gradient(to bottom, #faf9f8, #ebe9e8);
-    background-size: 160px auto;
     width: 160px;
     height: 120px; 
 }
 
 .dz1 {
-	background: url(../img/DZ1.png) no-repeat, 
-    linear-gradient(to bottom, #faf9f8, #ebe9e8);
-    background-size: 160px auto;
     width: 160px;
     height: 120px; 
 }
 
-.work-img:hover {
+.work-img:hover-1 {
 	opacity: 0.5;
-	/*background-: url(../img/Me.jpg)
-    background-size: 160px auto;
-    width: 160px;
-    height: 120px; */
 }
 
 .work-img a {
@@ -107,13 +135,23 @@ ul.works-info {
 	display: block;
 }
 
-.work-link {
-	height: 33px;
-	background-color: #f2f2f2;
+.work-img img {
+	width: 100%;
+	height: 100%;
 	display: block;
+}
+
+.work-link-wrapper {
+	min-height: 33px;
 	width: 160px;
-	padding-top: 7px;
+	background-color: #f2f2f2;
+	padding: 7px;
 	text-align: center;
+	word-break: break-all;
+
+}
+
+.work-link {
 	text-decoration: none;
 	font-size: 13px;
 	font-family: "open_sans_bold";
@@ -125,7 +163,17 @@ ul.works-info {
 	-ms-transform: matrix( 1.02802275960171,0,0,1.02714914341595,0,0);
 }
 
+.work-link:hover {
+	text-decoration: underline;
+}
+
+.work-title-wrapper {
+	width: 160px;
+	padding: 5px;
+}
+
 .work-title {
+
 	text-align: center;
 	font-size: 12px;
 	font-family: "open_sans_light";
@@ -144,7 +192,7 @@ ul.works-info {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefdfd', endColorstr='#e9e7e6',GradientType=0 ); /* IE6-9 */
 	list-style: none;
 	display: inline-block;
-	margin: 0 22px 30px 0;
+	margin: 0 22px 30px 11px;
 	width: 160px;
 	border: 2px #c5c5c5 solid;
 	border-radius: 6px;
@@ -186,8 +234,10 @@ ul.works-info {
 	line-height: 1.571;
 	text-align: center;
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	display: block;
+	word-break: break-all;
+	padding: 5px;
 }
 
 .add-new-project-link {
@@ -206,6 +256,5 @@ ul.works-info {
 	background-image: -webkit-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
 	background-image: -ms-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
 	box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+
 }
-
-

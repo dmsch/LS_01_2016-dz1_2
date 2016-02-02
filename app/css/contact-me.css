@@ -26,12 +26,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
 
  	margin: 0 0 39px 0;
- 	padding: 0 10px 0 44px;
+ 	padding: 14px 10px 14px 44px;
+ 	min-height: 55px;
 
 	font-size: 24px;
 	font-family: "open_sans_semibold";
 	color: rgb(238, 237, 236);
-	line-height: 2.33;
+	line-height: 1.2;
 	text-align: left;
 	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.75);
 	word-break: break-all;
@@ -40,9 +41,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 
 .contact-form {
 	width: 410px;
-	height: 830px;
+	/*height: 830px;*/
 	margin: 0 auto;
 	padding: 0;
+	padding-bottom: 40px;
 	/*border: 3px blue solid;*/
 }
 
@@ -60,12 +62,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 }
 
 .my-label {
+	width: 192px;
 	display: block;
 	font-size: 14px;
 	font-family: "open_sans_semibold";
 	color: rgb(114, 112, 112);
 	line-height: 1.1;
 	margin-bottom: 12px;
+	word-break: break-all;
 }
 
 .my-input {
@@ -79,11 +83,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	border: 1px #d6d5d3 solid;
 	border-radius: 3px;
 	width: 192px;
+	height: 37px;
 
 	font-size: 12px;
 	font-family: "open_sans_light";
-	color: rgb(199, 198, 198);
-	line-height: 3.1;
+	/*color: rgb(199, 198, 198);*/
+	color: #2980b9;
+	line-height: 1.2;
 	padding-left: 9px;
 }
 
@@ -103,12 +109,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 }
 
 .my-label-message {
+	width: 405px;
 	display: block;
 	font-size: 14px;
 	font-family: "open_sans_semibold";
 	color: rgb(114, 112, 112);
 	line-height: 1.1;
 	margin-bottom: 12px;
+	word-break: break-all;
 }
 
 .my-input-message {
@@ -126,9 +134,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 
 	font-size: 12px;
 	font-family: "open_sans_light";
-	color: rgb(199, 198, 198);
-	line-height: 2;
+	/*color: rgb(199, 198, 198);*/
+	color: #2980b9;
+	line-height: 1.2;
 	padding-left: 9px;
+	padding-top: 10px;
 	resize: none;
 }
 
@@ -142,22 +152,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 }
 
 .capcha-label {
+	width: 410px;
 	display: block;
 	font-size: 14px;
 	font-family: "open_sans_semibold";
 	color: rgb(114, 112, 112);
 	line-height: 1.1;
 	margin: 0 0 12px 0;
+	word-break: break-all;
 }
 
-.capcha-img {
+.capcha-img-wrapper {
 	display: inline-block;
 	width: 190px;
 	height: 78px;
 	border: 1px #d6d5d3 solid;
 	border-radius: 3px;
-	background: url(../img/capcha.png) 25% no-repeat;
+	/*background: url(../img/capcha.png) 25% no-repeat;*/
 	margin-right: 20px;
+}
+
+.capcha-img {
+	width: 100%;
+	height: 100%;
+}
+
+.capcha-input-wrapper-1 {
+
 }
 
 .capcha-input {
@@ -174,7 +195,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 
 	font-size: 12px;
 	font-family: "open_sans_light";
-	color: rgb(199, 198, 198);
+	/*color: rgb(199, 198, 198);*/
+	color: #2980b9;
 	line-height: 3.1;
 	padding-left: 9px;
 	display: inline-block;
@@ -182,7 +204,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	position: absolute;
 	top: 43%;
 }
-
 
 /* Buttons =========================================================*/
 .buttons {
@@ -201,13 +222,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6efdb', endColorstr='#44b897',GradientType=0 ); /* IE6-9 */
 
 	width: 123px;
-	height: 40px;
+	min-height: 40px;
 	border-radius: 5px;
 	margin-right: 97px; 
 	font-size: 14px;
 	font-family: "open_sans_bold";
 	color: rgb(30, 116, 101);
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+	word-break: break-all;
 }
 
 .button-send:hover {
@@ -228,12 +250,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafa', endColorstr='#e9e8e8',GradientType=0 ); /* IE6-9 */
 
 	width: 123px;
-	height: 40px;
+	min-height: 40px;
 	border-radius: 5px;
 	font-size: 14px;
 	font-family: "open_sans_bold";
 	color: rgb(114, 112, 112);
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+	word-break: break-all;
 }
 
 .button-clear:hover {

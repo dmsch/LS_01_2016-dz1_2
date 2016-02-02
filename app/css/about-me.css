@@ -1,294 +1,393 @@
 /* General Info Sections */
-.infobox {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfa+0,f0eeed+100 */
-background: #fbfbfa; /* Old browsers */
-background: -moz-linear-gradient(top,  #fbfbfa 0%, #f0eeed 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #fbfbfa 0%,#f0eeed 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #fbfbfa 0%,#f0eeed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
+.infobox
+{
+    overflow: hidden;
 
+    margin: 0 0 37px 0;
+    /*margin-bottom: 37px;*/
+    padding: 0;
 
-	margin: 0 0 37px 0;
-	/*margin-bottom: 37px;*/
-	padding: 0;
-	overflow: hidden;
-	border-radius: 4px;
+    border-radius: 4px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfa+0,f0eeed+100 */
+    background: #fbfbfa; /* Old browsers */
+    background:    -moz-linear-gradient(top,  #fbfbfa 0%, #f0eeed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fbfbfa 0%,#f0eeed 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         linear-gradient(to bottom,  #fbfbfa 0%,#f0eeed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
 }
 
-.infobox-header {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a8a7a7+0,7b7979+100 */
-	background: #a8a7a7; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a8a7a7 0%, #7b7979 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #a8a7a7 0%,#7b7979 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #a8a7a7 0%,#7b7979 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
+.infobox-header
+{
+    font-family: 'open_sans_semibold';
+    font-size: 24px;
+    line-height: 1.2;
 
- 	margin: 0;
- 	padding: 0 10px 0 44px;
+    min-height: 55px;
+    margin: 0 0 40px 0;
+    padding: 14px 10px 14px 44px;
 
-	font-size: 24px;
-	font-family: "open_sans_semibold";
-	color: rgb(238, 237, 236);
-	line-height: 2.33;
-	text-align: left;
-	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.75);
-	word-break: break-all;
+    text-align: left;
+    word-break: break-all;
+
+    color: rgb(238, 237, 236);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a8a7a7+0,7b7979+100 */
+    background: #a8a7a7; /* Old browsers */
+    background:    -moz-linear-gradient(top,  #a8a7a7 0%, #7b7979 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #a8a7a7 0%,#7b7979 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         linear-gradient(to bottom,  #a8a7a7 0%,#7b7979 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-shadow: 0 1px 0 rgba(102, 101, 101, .75);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a7a7', endColorstr='#7b7979',GradientType=0 ); /* IE6-9 */
+}
+
+.infobox-header.empl {
+	margin: 0;
 }
 
 
 
 /* Personal Picture */
-.img-wrapper {
-	width: 200px;
-	float: left;
-	margin-bottom: 0px;
+.img-wrapper
+{
+    float: left;
+
+    width: 200px;
+    margin-bottom: 0;
 }
-.pers-img {
-	width: 152px;
-	height: 152px;
-	border: 1px #d5d3d2;
-	border-style: solid;
-	overflow: hidden;
-	border-radius: 50%;
-	position: relative;
-	margin: 40px 0 0 42px;
+.pers-img
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 152px;
+    height: 152px;
+    margin: 0px 0 0 42px; /*margin: 40px 0 0 42px; ========================*/
+
+    border: 1px #d5d3d2;
+    border-style: solid;
+    border-radius: 50%;
 }
 
-.pers-img-inner {
-	width: 150px;
-	height: 150px;
-	border: 8px #f5f4f3;
-	border-style: solid;
-	overflow: hidden;
-	border-radius: 50%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
+.pers-img-inner
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+
+    border: 8px #f5f4f3;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 /* Personal Info */
 
-.infobox .pers-info {
-	margin-bottom: 39px;
+.infobox .pers-info
+{
+    margin-bottom: 39px;
 }
 
-.general-info-wrapper {
-	width: 378px;
-	float: right;
-	margin: 40px 43px 0 0;
+.general-info-wrapper
+{
+    float: right;
+
+    width: 378px;
+    margin: 0px 43px 0 0;/*margin: 40px 43px 0 0;==========================*/
 }
 
-ul.general-info {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.general-info-item-topic {
-	float: left;
-
-	font-size: 14px;
-	font-family: "open_sans_semibold";
-	color: rgb(114, 112, 112);
-	line-height: 1.71;
-	text-align: left;
-	font-style: normal;
-}
-
-
-.general-info-item-content {
-	float: left;
-	margin-left: 10px;
-	font-size: 14px;
-	font-family: "open_sans_regular";
-	color: rgb(114, 112, 112);
-	line-height: 1.71;
-	text-align: left;
-	max-width: 210px;
-}
-
-li.general-info-item:last-child .general-info-item-topic {
-	line-height: 2.57;
-}
-
-li.general-info-item:last-child .general-info-item-content {
-	line-height: 2.57;
-}
-
-.key-skills-list {
-	width: 234px;
-	margin: 0 0 0 10px;
-	padding: 0;
-	list-style: none;
-}
-
-li.key-skills {
-	display: inline-block;
-    font-family: "open_sans_semibold";
-    font-style: normal;
-    font-size: 9px;
-    margin-bottom: 0px;
-    color: rgb(30, 116, 101);
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
-    background: url(../img/label-center.png);
-    height: 21px;
-    margin-right: 10px;
+ul.general-info
+{
+    margin: 0;
     padding: 0;
+
+    list-style: none;
+}
+
+.general-info-item-topic
+{
+    font-family: 'open_sans_semibold';
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.2;
+
+    float: left;
+
+    max-width: 155px;
+    padding: 5px 5px 5px 0;
+
+    text-align: left;
+    word-break: break-all;
+
+    color: rgb(114, 112, 112);
+}
+
+
+.general-info-item-content
+{
+    font-family: 'open_sans_regular';
+    /*margin-left: 10px;*/
+    font-size: 14px;
+    line-height: 1.2;
+
+    float: left;
+
+    max-width: 220px;
+    padding: 5px 5px 5px 5px;
+
+    text-align: left;
+    word-break: break-all;
+    word-break: break-all;
+
+    color: rgb(114, 112, 112);
+}
+
+li.general-info-item:last-child .general-info-item-topic
+{
+    /*line-height: 2.57;*/
+    padding: 15px 5px 5px 0;
+}
+
+li.general-info-item:last-child .general-info-item-content
+{
+    line-height: 2.57;
+}
+
+.key-skills-list
+{
+    width: 234px;
+    margin: 0 0 0 10px;
+    padding: 0;
+
+    list-style: none;
+}
+
+li.key-skills
+{
+    font-family: 'open_sans_semibold';
+    font-size: 9px;
+    font-style: normal;
+
+    display: inline-block;
+
     min-width: 30px;
     max-width: 230px;
+    height: 21px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 0;
+
+    color: rgb(30, 116, 101);
+    background: url(../img/label-center.png);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .45);
 }
 
-li.key-skills:before {
-	position: relative;
-	content: '';
-	width: 9px;
+li.key-skills:before
+{
+    position: relative;
+    top: -2.5px;
+    right: 9px;
+
+    display: inline-block;
+
+    width: 9px;
     height: 20px;
-	background-image: url(../img/sprite-label.png);
-	background-position: -41px -5px;
-	display: inline-block;
-	vertical-align: middle;
-	padding: 0;
-	right: 9px;
-	top: -2.5px;
+    padding: 0;
+
+    content: '';
+    vertical-align: middle;
+
+    background-image: url(../img/sprite-label.png);
+    background-position: -41px -5px;
 }
 
-li.key-skills:after {
-	position: relative;
-	content: '';
-	width: 9px;
+li.key-skills:after
+{
+    position: relative;
+    top: -2.5px;
+    left: 5px;
+
+    display: inline-block;
+
+    width: 9px;
     height: 20px;
-	background-image: url(../img/sprite-label.png);
-	background-position: -61px -5px;
-	display: inline-block;
-	vertical-align: middle;
-	padding: 0;
-	left: 5px;
-	top: -2.5px;
+    padding: 0;
+
+    content: '';
+    vertical-align: middle;
+
+    background-image: url(../img/sprite-label.png);
+    background-position: -61px -5px;
 }
 
 /* Employment Info ================================================================= */
-.infobox .empl-info {
-	width: 565px;
-	margin: 0 auto;
+.infobox .empl-info
+{
+    width: 565px;
+    margin: 0 auto;
 }
 
-ul.empl-info {
-	margin: 0;
-	padding: 0;
+ul.empl-info
+{
+    margin: 0;
+    padding: 0;
 }
 
-li.empl-info-item {
-	position: relative;
+li.empl-info-item
+{
+    position: relative;
 }
 
-li.empl-info-item:not(:last-child):after {
-	content: '';
-	width: 100%;
-	display: block;
-	position: relative;
-	border-bottom: 2px #dbdbda solid; 
-	margin-bottom: 5px;
+li.empl-info-item:not(:last-child):after
+{
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 5px;
+
+    content: '';
+
+    border-bottom: 2px #dbdbda solid;
 }
 
-.empl-info-img-wrapper {
-	display: inline-block;
-	border-radius: 50%;
-    background-color: rgb(247, 247, 247);
-    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 2px 2px 0.5px 0.5px rgba(209, 209, 209, 0.75);
-    width: 53px;
-    height: 54px;
+.empl-info-img-wrapper
+{
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    width: 53px;
+    height: 54px;
     margin: auto 0 auto 0;
+
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .004),inset 2px 2px .5px .5px rgba(209, 209, 209, .75);
 }
 
-.empl-info-item-wrapper {
-	width: 470px;
-	float: right;
-	margin: 0 auto;
-	margin-top: 20px;
-	padding-bottom: 30px;
+.empl-info-item-wrapper
+{
+    float: right;
+
+    width: 470px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
-.sprite-misc:after {
+.sprite-misc:after
+{
     background-image: url(../img/sprite-misc.png);
     background-repeat: no-repeat;
 }
 
-.empl-info-item-topic {
-	font-size: 14px;
-	font-family: "open_sans_semibold";
-	color: rgb(114, 112, 112);
-	line-height: 1.65;
+.empl-info-item-topic
+{
+    font-family: 'open_sans_semibold';
+    font-size: 14px;
+    line-height: 1.2;/*line-height: 1.65;*/
+    padding: 4px 10px 4px 0;
+
+    word-break: break-all;
+
+    color: rgb(114, 112, 112);
 }
 
 
-.empl-info-item-content {
-	font-size: 14px;
-	font-family: "open_sans_regular";
-	color: rgb(114, 112, 112);
-	line-height: 1.65;
+.empl-info-item-content
+{
+    font-family: 'open_sans_regular';
+    font-size: 14px;
+    line-height: 1.65;
+    padding-right: 10px;
+
+    word-break: break-all;
+
+    color: rgb(114, 112, 112);
 }
 
-.portfolio:after {
-	width: 21px;
-    height: 19px;
-    background-position: -5px -5px;
-    content: '';
+.portfolio:after
+{
     display: block;
-    vertical-align: middle;
+
+    width: 21px;
+    height: 19px;
     margin: 0 auto;
     margin-top: 17px;
+
+    content: '';
+    vertical-align: middle;
+
+    background-position: -5px -5px;
 }
 
-.empl-info-item-content p {
-	padding: 0;
-	margin: 0;
+.empl-info-item-content p
+{
+    margin: 0;
+    padding: 0;
 }
 
 /* End of Employment Info ================================================================= */
 
 /* Education Info ================================================================= */
 
-.school:after {
-	width: 21px;
+.school:after
+{
+    display: block;
+
+    width: 21px;
     height: 21px;
+    margin: 0 auto;
+    margin-top: 17px;
+
+    content: '';
+    vertical-align: middle;
+
     background-position: -249px -5px;
-    content: '';
-    display: block;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-top: 17px;
 }
 
-.graduate:after {
-	width: 27px;
+.graduate:after
+{
+    display: block;
+
+    width: 27px;
     height: 18px;
-    background-position: -87px -5px;
-    content: '';
-    display: block;
-    vertical-align: middle;
     margin: 0 auto;
     margin-top: 17px;
+
+    content: '';
+    vertical-align: middle;
+
+    background-position: -87px -5px;
 }
 
-.diploma:after {
-	width: 15px;
-    height: 20px;
-    background-position: -62px -5px;
-    content: '';
+.diploma:after
+{
     display: block;
-    vertical-align: middle;
+
+    width: 15px;
+    height: 20px;
     margin: 0 auto;
     margin-top: 17px;
+
+    content: '';
+    vertical-align: middle;
+
+    background-position: -62px -5px;
 }
 
 

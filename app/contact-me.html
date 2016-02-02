@@ -90,12 +90,12 @@
 								<form action="sendform.php" class="my-form">
 									<div class="name-email">
 										<div class="contact-name">
-											<label for="contactName" class="my-label">
+											<label class="my-label">
 											Имя</label>
 											<input type="text" class="my-input" name="contactName" placeholder="Как к Вам обращаться">
 										</div>
 										<div class="contact-email">
-											<label for="contactEmail" class="my-label">Email</label>
+											<label class="my-label">Email</label>
 											<input type="text" class="my-input" name="contactEmail" placeholder="Куда мне писать">
 										</div>
 									</div>
@@ -106,14 +106,17 @@
 									</div>
 									<div class="capcha">
 										<p class="capcha-label">Введите код, указанный на картинке</p>
-										<div class="capcha-img">
-											
+										<div class="capcha-img-wrapper">
+											<img src="img/capcha.png" alt="capcha.png" class="capcha-img">
 										</div>
-										<input type="text" name="capchaInput" class="capcha-input" placeholder="Введите код">
+										<!-- <div class="capcha-input-wrapper"> -->
+											<input type="text" name="capchaInput" class="capcha-input" placeholder="Введите код">
+										<!-- </div> -->
+										
 									</div>
 									<div class="buttons">
-										<button class="button-send">Отправить</button>
-										<button class="button-clear">Очистить</button>
+										<button type="submit" class="button-send">Отправить</button>
+										<button type="reset" class="button-clear">Очистить</button>
 									</div>
 								</form>
 							</div>

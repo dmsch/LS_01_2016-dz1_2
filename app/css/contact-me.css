@@ -192,6 +192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	border: 1px #d6d5d3 solid;
 	border-radius: 3px;
 	width: 192px;
+	height: 40px;
 
 	font-size: 12px;
 	font-family: "open_sans_light";
@@ -230,6 +231,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	color: rgb(30, 116, 101);
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 	word-break: break-all;
+
+	-webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.5);
 }
 
 .button-send:hover {
@@ -257,6 +262,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	color: rgb(114, 112, 112);
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 	word-break: break-all;
+
+	-webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.5);
 }
 
 .button-clear:hover {
@@ -267,3 +276,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 	background: linear-gradient(to bottom,  #f9fafa 0%,#bfbdbd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafa', endColorstr='#bfbdbd',GradientType=0 ); /* IE6-9 */
 }
+
+/* End of Buttons =========================================================*/
+
+/* bPopup ================================================================*/
+
+.element-to-popup {
+	background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 25px 5px #999;
+    color: #111;
+    display: none;
+    min-width: 450px;
+    padding: 25px;
+}
+
+.popup-close-button {
+	border-radius: 7px 7px 7px 7px;
+    box-shadow: none;
+    font: bold 131% sans-serif;
+    padding: 0 6px 2px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+
+    background-color: #2b91af;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.popup-close-button:hover {
+	background-color: red;
+}
+
+/* End of bPopup ================================================================*/

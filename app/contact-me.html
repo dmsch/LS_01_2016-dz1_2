@@ -21,9 +21,7 @@
 		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/contact-me.css">
-		<!--[if lt IE9]>
-			<link rel="stylesheet" href="css/main-ie8.css">
-		<![endif] -->
+		
 
 		<!-- Modernizer -->
 		<script type="text/javascript" src="bower/modernizer/modernizr.js"></script>
@@ -100,7 +98,7 @@
 										</div>
 									</div>
 									<div class="message">
-										<label for="contactName" class="my-label-message">
+										<label class="my-label-message">
 										Сообщение</label>
 										<textarea name="inputMessage" id="inputMessage" cols="30" rows="10" class="my-input-message" placeholder="Кратко в чем суть"></textarea>
 									</div>
@@ -119,6 +117,11 @@
 										<button type="reset" class="button-clear">Очистить</button>
 									</div>
 								</form>
+								<div class="element-to-popup">
+									<span class="popup-close-button"><span>X</span></span>
+									<h2>Content to popup</h2>
+									<h3>Содержимое всплывающего окна</h3>
+								</div>
 							</div>
 						</article>
 					</section>
@@ -144,7 +147,9 @@
 		
 
 		<script src="bower/jquery/jquery.js"></script>
-		<script src="js/main.js"></script>
+		<script type="text/javascript" src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+		<script type="text/javascript" src="bower/bPopup/jquery.bpopup.js"></script>
+		<script src="js/contact-me.js"></script>
 	</body>
 
 </html>

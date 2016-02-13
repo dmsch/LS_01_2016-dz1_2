@@ -1,15 +1,12 @@
-*
-{
+* {
     box-sizing: border-box;
 }
 
-html
-{
+html {
     height: 100%;
 }
 
-body
-{
+body {
     font: normal 1em 'open_sans_regular';
 
     height: 100%;
@@ -18,6 +15,12 @@ body
     background: url(../img/bg.jpg);
     background-size: cover;
 }
+
+.no-backgroundsize body {
+	background: #EEE49F;
+}
+
+
 
 /* Clearfix ===============================================================*/
 .clearfix:before,

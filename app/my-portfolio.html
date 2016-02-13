@@ -21,9 +21,7 @@
 		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-		<!--[if lt IE9]>
-			<link rel="stylesheet" href="css/main-ie8.css">
-		<![endif] -->
+		
 
 		<!-- Modernizer -->
 		<script type="text/javascript" src="bower/modernizer/modernizr.js"></script>
@@ -83,7 +81,7 @@
 
 					<!-- Main Info Blocks -->
 					<section class="main-blocks">
-						<!-- Employment Info -->
+						<!-- Portfolio Info -->
 						<article class="infobox works">
 							<h2 class="infobox-header">Мои работы</h2>
 							<div class="infobox work-info">
@@ -131,12 +129,68 @@
 										</div>
 									</li>
 									<li class="work-item-add-new-work">
-										<a href="#" class="add-new-project-link" target="_blank">
+										<a href="" class="add-new-project-link" target="_blank">
 											<div class="add-new-work-wrapper sprite-misc add-work"></div>
 											<div class="work-title-add-new-work">Добавить проект</div>
 										</a>
 									</li>
 								</ul>
+
+								<!-- Popup for adding new project -->
+
+								<div class="add-project-popup">
+									<span class="popup-close-button"><span>X</span></span>
+									<div class="add-new-project-wrapper">
+										<form action="add_new_project.php" class="add-new-project-form">
+											<div class="project-name">
+												<label class="add-new-project-label">
+												Название проекта</label>
+												<input type="text" class="add-new-project-input" id="projectName" name="projectName" placeholder="Введите название">
+											</div>
+											<div class="project-img">
+												<label class="add-new-project-label">
+												Картинка проекта</label>
+
+											<!-- ====================== -->
+
+												<div class="fileform">
+													<input type="text" id="fileformlabel" name="fileformlabel" placeholder="Загрузите изображение">
+													<div class="selectbutton sprite-misc add-project"></div>
+													<input id="upload" type="file" name="upload">
+												</div>
+
+											<!-- ====================== -->
+
+											</div>
+
+											<div class="project-url">
+												<label class="add-new-project-label">
+												URL проекта</label>
+												<input type="text" class="add-new-project-input" id="projectURL" name="projectURL" placeholder="Добавьте ссылку">
+											</div>
+											<div class="project-desc">
+												<label class="project-desc-label">
+												Сообщение</label>
+												<textarea name="projectDescMessage" id="projectDescMessage" cols="30" rows="10" class="project-desc-message" placeholder="Пара слов о вашем проекте"></textarea>
+											</div>
+
+											<!-- Small popup for OK message -->
+
+											<div class="popup-ok">
+												<span class="popup-close-button popupOk"><span>X</span></span>
+												<div class="ok-message">
+													<div class="ok-mesasage-one">Ура!</div>
+													<div class="ok-mesasage-two">Проект успешно добавлен.</div>
+												</div>
+											</div>
+
+											<div class="button-wrapper">
+												<button type="submit" class="button-send">Добавить</button>
+											</div>
+											
+										</form>
+									</div>
+								</div>
 							</div>
 						</article>
 					</section>
@@ -162,7 +216,9 @@
 		
 
 		<script src="bower/jquery/jquery.js"></script>
-		<script src="js/main.js"></script>
+		<script type="text/javascript" src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+		<script type="text/javascript" src="bower/bPopup/jquery.bpopup.js"></script>
+		<script src="js/my-portfolio.js"></script>
 	</body>
 
 </html>

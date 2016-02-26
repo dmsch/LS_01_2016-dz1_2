@@ -17,14 +17,25 @@
 		<!-- Bower CSS -->
 		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 
+		<!-- Tootipster CSS -->
+		<link rel="stylesheet" type="text/css" href="bower/tooltipster/css/tooltipster.css">
+
 		<!-- My CSS -->
 		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/contact-me.css">
+
+		<!-- jQuery -->
+		<script src="bower/jquery/jquery.js"></script>
+		<script type="text/javascript" src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
 		
 
 		<!-- Modernizer -->
 		<script type="text/javascript" src="bower/modernizer/modernizr.js"></script>
+
+		<!-- Tooltipster JS -->
+		<script type="text/javascript" src="bower/tooltipster/js/jquery.tooltipster.min.js"></script>
+
 	</head>
 
 	<body>
@@ -90,11 +101,11 @@
 										<div class="contact-name">
 											<label class="my-label">
 											Имя</label>
-											<input type="text" class="my-input" name="contactName" placeholder="Как к Вам обращаться">
+											<input type="text" class="my-input" id="contactName" name="contactName" placeholder="Как к Вам обращаться">
 										</div>
 										<div class="contact-email">
 											<label class="my-label">Email</label>
-											<input type="text" class="my-input" name="contactEmail" placeholder="Куда мне писать">
+											<input type="text" class="my-input" id="contactEmail" name="contactEmail" placeholder="Куда мне писать">
 										</div>
 									</div>
 									<div class="message">
@@ -108,7 +119,7 @@
 											<img src="img/capcha.png" alt="capcha.png" class="capcha-img">
 										</div>
 										<!-- <div class="capcha-input-wrapper"> -->
-											<input type="text" name="capchaInput" class="capcha-input" placeholder="Введите код">
+											<input type="text" id="capchaInput" name="capchaInput" class="capcha-input" placeholder="Введите код">
 										<!-- </div> -->
 										
 									</div>
@@ -117,11 +128,6 @@
 										<button type="reset" class="button-clear">Очистить</button>
 									</div>
 								</form>
-								<div class="element-to-popup">
-									<span class="popup-close-button"><span>X</span></span>
-									<h2>Content to popup</h2>
-									<h3>Содержимое всплывающего окна</h3>
-								</div>
 							</div>
 						</article>
 					</section>
@@ -146,9 +152,6 @@
 
 		
 
-		<script src="bower/jquery/jquery.js"></script>
-		<script type="text/javascript" src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
-		<script type="text/javascript" src="bower/bPopup/jquery.bpopup.js"></script>
 		<script src="js/contact-me.js"></script>
 	</body>
 

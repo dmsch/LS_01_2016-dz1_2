@@ -313,3 +313,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfa', end
 }
 
 /* End of bPopup ================================================================*/
+
+/* Tooltipster =======================================*/
+.tooltipster-light {
+	border-radius: 5px; 
+	border: 1px solid #cccccc;
+	background: #ededed;
+	color: #666666;
+}
+.tooltipster-light .tooltipster-content {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+.tooltipster-red {
+	border-radius: 5px; 
+	border: 1px solid #cb6945;
+	color: #666666;
+	box-shadow: 1px 1px 1px 1px #808072;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3a58b+0,d67c5a+100 */
+	background: #f3a58b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3a58b 0%, #d67c5a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #f3a58b 0%,#d67c5a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #f3a58b 0%,#d67c5a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); /* IE6-9 */
+}
+.tooltipster-red .tooltipster-content {
+	font-family: Arial, sans-serif;
+	/*font-size: 14px;*/
+	/*line-height: 16px;*/
+	padding: 8px 10px;
+	font-size: 12px;
+	font-family: "open_sans_bold";
+	color: rgb(154, 78, 50);
+	line-height: 1.2;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+}
+/* End of Tooltipster =======================================*/
